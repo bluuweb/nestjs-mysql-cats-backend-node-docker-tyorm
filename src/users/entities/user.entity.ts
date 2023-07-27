@@ -20,7 +20,7 @@ export class User {
   password: string;
 
   @Column({ default: 'user' })
-  rol: string;
+  role: string;
 
   @DeleteDateColumn()
   deletedAt: Date;
